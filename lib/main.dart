@@ -17,7 +17,7 @@ class ZartAuth extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: ZartRoutes.dashboardRoute,
+      initialRoute: ZartRoutes.signUpRoute,
       routes: ZartRoutes.routes,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
